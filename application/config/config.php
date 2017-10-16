@@ -25,7 +25,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 //Configuration of the Base URL
 
-$config['base_url'] = '';
+$config['base_url'] = 'http://localhost/codeigniterProject/';
 
 /*
 |--------------------------------------------------------------------------
