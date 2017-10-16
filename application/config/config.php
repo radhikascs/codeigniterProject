@@ -23,6 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
+//Configuration of the Base URL
+
 $config['base_url'] = '';
 
 /*
