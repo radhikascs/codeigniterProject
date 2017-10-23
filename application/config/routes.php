@@ -67,3 +67,11 @@ $route['cookie/display'] = 'Cookie_controller/display_cookie';
 $route['cookie/delete'] = 'Cookie_controller/deletecookie';
 
 
+$route['upload'] = 'Upload';
+
+$route['tempdata'] = "Tempdata_controller"; 
+$route['tempdata/add'] = "Tempdata_controller/add";
+
+
+
+

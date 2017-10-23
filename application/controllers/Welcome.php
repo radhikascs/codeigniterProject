@@ -20,6 +20,8 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
+        $this->load->library('mylibrary');
+        $this->mylibrary->some_fuction();
 		$this->load->view('welcome_message');
 	}
 }
