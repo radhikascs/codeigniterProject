@@ -8,7 +8,7 @@
 	
    <body> 
       Flash Data Example 
-      <h2><?php echo $this->session->flashdata('item'); ?></h2> 
+      <h2><?php echo $this->session->flashdata('xyz'); ?></h2> 
       <a href = 'flashdata/add'>Click Here</a> to add flash data. 
    </body>
 	

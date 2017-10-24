@@ -20,13 +20,13 @@
          $this->load->library('upload', $config);
 			
          if ( ! $this->upload->do_upload('userfile')) {
-            $error = array('error' => $this->upload->display_errors()); 
-            $this->load->view('upload_form', $error); 
+
+             echo "File was not uploaded";
+             
          }
 			
-         else { 
-            $data = array('upload_data' => $this->upload->data()); 
-            $this->load->view('upload_success', $data); 
+         else {  
+            $this->load->view('upload_success'); 
          } 
       } 
    } 

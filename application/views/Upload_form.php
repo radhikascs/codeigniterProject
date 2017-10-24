@@ -1,7 +1,7 @@
 <html>
  
    <head> 
-      <title>Upload Form</title> 
+      <title>CodeIgniter Form Upload</title> 
    </head>
 	
    <body> 

@@ -67,10 +67,24 @@ $route['cookie/display'] = 'Cookie_controller/display_cookie';
 $route['cookie/delete'] = 'Cookie_controller/deletecookie';
 
 
-$route['upload'] = 'Upload';
-
 $route['tempdata'] = "Tempdata_controller"; 
 $route['tempdata/add'] = "Tempdata_controller/add";
+
+$route['flashdata'] = 'FlashData_Controller'; 
+$route['flashdata/add'] = 'FlashData_Controller/add';
+
+$route['cachecontroller'] = 'Cache_controller'; 
+$route['cachecontroller/delete'] = 'Cache_controller/delete_file_cache';
+
+$route['example'] = 'Example';
+
+$route['redirect'] = "Redirect_controller";
+$route['redirect/computer_graphics'] = "Redirect_controller/computer_graphics";
+
+$route['Upload'] = 'upload';
+
+$route['email'] = 'Email_controller';
+
 
 
 
