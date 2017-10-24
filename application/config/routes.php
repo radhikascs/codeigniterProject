@@ -85,6 +85,8 @@ $route['Upload'] = 'upload';
 
 $route['email'] = 'Email_controller';
 
+$route['lang'] = 'Lang_controller';
+
 
 
 
